@@ -1,0 +1,349 @@
+html {
+  height: 100%;
+}
+.sidebar--label {
+  display: inline-block;
+  width: 100%;
+  max-width: 106px;
+  margin-top: -2px;
+}
+
+.left-side {
+  width: 28%;
+  height: auto;
+  background-color: darkslateblue;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+}
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+  text-align: center
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+/* Стилі для основного вмісту (body) */
+
+body {
+  width: 21cm;
+  height: 100%;
+  min-height: 29.7cm;
+  position: relative;
+  margin: 0;
+  padding: 0 0;
+  line-height: 22px;
+  font: 12px "Helvetica", Arial;
+  font-style: normal;
+}
+
+/* Заголовки (h1, h2, h3) та їх стилі */
+
+h1 {
+  font-style: normal;
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  padding: 13px 0 15px 0;
+  font-weight: 600;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  max-width: 430px;
+}
+
+/* Параграфи (p) та їх стилі */
+
+p {
+  color: #4c4c4c;
+  line-height: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Горизонтальна лінія (hr) */
+
+hr {
+  border: none;
+  height: 100px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Розділи та їх стилі */
+
+.sections {
+  top: 0;
+  left: 235px;
+  position: absolute;
+  width: 535px;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+
+/* Заголовок розділу (section--title) та його стилі */
+
+.section--title {
+  display: block;
+  margin: 0 0 0 0;
+  font-weight: 600;
+  padding: 15px 0 15px 0;
+  page-break-inside: avoid;
+  border-bottom: 1px solid black;
+}
+
+/* Група заголовків (section--heading-group) та її стилі */
+
+.section--heading-group {
+  display: block;
+  padding: 15px 0 0 0;
+  margin: 0;
+}
+
+/* Список розділу (section--list) та його стилі */
+
+.section--list {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section--list.skills {
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Елемент розділу (section--item) та його стилі */
+
+.section--item {
+  display: block;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section--item.skills {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.section--item.skills h3 {
+  font-size: 13px;
+}
+
+/* Етикетка навичок (skills--label) та її стилі */
+
+.skills--label {
+  display: inline-block;
+  width: 175px;
+  margin: 5px 0 0 -5px;
+}
+
+/* Дата розділу (section--date) та її стилі */
+
+.section--date {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 16px;
+  width: 142px;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Заголовок розділу (section--heading) та його стилі */
+
+.section--heading {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+/* Підзаголовок розділу (section--sub-heading) та його стилі */
+
+.section--sub-heading {
+  display: block;
+  padding: 3px 0 0 0;
+  margin: 0;
+  font-style: italic;
+  font-size: 13px;
+}
+
+/* Вміст розділу (section--content) та його стиль */
+
+.section--content {
+  display: block;
+  padding: 5px 0 0 0;
+  margin: 0;
+}
+
+.section--content ol {
+  padding-left: 14px;
+}
+
+/* Вміст розділу з одним текстовим полем (section--content-single-textarea) та його стилі */
+
+.section--content-single-textarea {
+  padding-top: 10px;
+}
+
+.sidebar--data {
+  margin-bottom: 20px; /* Додано відступ між блоками даних */
+  margin-left: 10px;
+  padding-top: 20px;
+}
+
+/* Додано стилі для імені та адреси в бічній панелі */
+.sidebar--item span {
+  font-weight: 600;
+}
+
+/* Стилі для аватару (avatar) та його стилі */
+
+.avatar {
+
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 0 8px 7px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+/* Заголовок бічної панелі (sidebar--title) та його стилі */
+
+.sidebar--title {
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  padding: 20px 0 11px 0;
+  margin: 0 0 10px 0;
+  page-break-inside: avoid;
+  border-bottom: 1px solid #fff;
+}
+
+.sidebar--title span {
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 0px;
+}
+
+.sidebar--title svg {
+  position: relative;
+  top: 4px;
+  margin-right: 4px;
+}
+
+/* Етикетка бічної панелі (sidebar--label) та її стилі */
+
+.sidebar--label {
+  color: white;
+  font-weight: 600;
+}
+
+/* Список в бічній панелі (sidebar--list) та його стилі */
+
+.sidebar--list {
+  color: white;
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Елемент в бічній панелі (sidebar--item) та його стилі */
+
+.sidebar--item {
+  display: block;
+  list-style: none;
+  font-size: 12px;
+  margin: 0;
+  page-break-inside: avoid;
+  padding: 8px 5px 0 0;
+}
+.sidebar--link {
+  display: block;
+  list-style: none;
+  font-size: 12px;
+  margin-left: 60px;
+  page-break-inside: avoid;
+  padding: 8px 5px 0 0;
+}
+
+.sidebar--item:last-child {
+  padding-bottom: 0;
+}
+
+/* Текст в елементі бічної панелі (sidebar--item-text) та його стилі */
+
+.sidebar--item-text {
+  line-height: 40px;
+}
+
+/* Вирівнювання тексту в елементі бічної панелі (sidebar--item-align-right) та його стилі */
+
+.sidebar--item-align-right {
+  float: right;
+  margin-right: 20px;
+}
+
+/* Стилі для жирного тексту (strong) */
+
+strong {
+  white-space: nowrap;
+}
+
+/* Встановлення шрифту для тіла документа */
+
+body {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
