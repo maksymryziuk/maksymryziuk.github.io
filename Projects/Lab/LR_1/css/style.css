@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #59504c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nav-menu {
+    background-color: #8a7971;
+    color: aliceblue;
+    padding: 50px;
+    border-radius: 60px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Чотири колонки для кнопок */
+    grid-gap: 40px; /* Відстань між кнопками */
+}
+
+h1 {
+    grid-column: span 4; /* Заголовок займає всі колонки */
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    font-weight: bold;
+    display: block;
+    background-color: aliceblue;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
